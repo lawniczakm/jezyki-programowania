@@ -1,10 +1,5 @@
 package com.example.lista1
 
-//co robi funkcja, co przyjmuje, co zwraca, ograniczenia funkcji?, żródła, nie trzeba ale mozna dokumentowac wyjatki
-//wyjatki:
-//lista 1 do 04.04
-//lista 2 do 16.04
-
 /**
  * Funkcja oblicza pole trójkąta za pomocą wzoru Herona.
  * @param a bok 1 trójkąta.
@@ -16,7 +11,6 @@ package com.example.lista1
 
  //Kod napisany wzorując się na rozwiązaniu ze strony: https://eduinf.waw.pl/inf/utils/010_2010/0106.php
  //oraz dokumentacji języka Kotlin: https://kotlinlang.org/docs/idioms.html
-
 
 fun heron(a: Double, b: Double, c: Double): Double {
     if (a <= 0 || b <= 0 || c <= 0) {
